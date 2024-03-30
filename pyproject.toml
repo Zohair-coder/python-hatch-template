@@ -19,3 +19,6 @@ helloworldterminal = "helloworldcli.__main__:main"
 
 [tool.hatch.build.targets.wheel]
 packages = ['src/helloworldcli']
+
+[tool.hatch.build.targets.sdist]
+packages = ['src/gflights']
