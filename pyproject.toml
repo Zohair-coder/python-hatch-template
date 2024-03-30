@@ -1,0 +1,21 @@
+[build-system]
+requires = ['hatchling']
+build-backend = 'hatchling.build'
+# See https://hatch.pypa.io for more details about that build system.
+
+[project]
+name = "helloworld-cli"
+dynamic = ['version']
+description = """A demo printing Hello World on stdout."""
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.10"
+
+[tool.hatch.version]
+path = "src/helloworldcli/__about__.py"
+
+[project.scripts]
+helloworldterminal = "helloworldcli.__main__:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ['src/helloworldcli']
