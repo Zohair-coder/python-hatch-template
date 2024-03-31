@@ -1,6 +1,6 @@
 """
     This file is run when you "execute" a package.
-    e.g. via "python -m package".
+    e.g. via "python -m {{cookiecutter.project_name}}".
 """
 
 

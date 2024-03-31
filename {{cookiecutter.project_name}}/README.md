@@ -1,4 +1,18 @@
-Template for a typical hatch project.
+# {{cookiecutter.project_name}}
+
+{{cookiecutter.project_description}}
+
+To install this template, make sure cookiecutter is installed:
+
+```
+pip install cookiecutter
+```
+
+Then run the following command:
+
+```
+cookiecutter https://github.com/Zohair-coder/python-hatch-template
+```
 
 Upgrade version of the project using:
 
